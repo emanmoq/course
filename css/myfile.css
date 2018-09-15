@@ -1,0 +1,57 @@
+body{
+    direction: ltr;
+
+    box-sizing: border-box;
+}
+.listcss{
+    color:red;
+    font-size: 16px;
+    font-family: Tahoma;
+    font-weight: normal;
+    text-decoration:none;
+    text-transform: capitalize;
+text-align: left;
+
+}
+.mainblock{
+    width: 150px;
+    height:50px;
+    background: rosybrown;
+  /*  margin-top:50px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 60px;*/
+margin : 50 60 10 30 ; 
+float: left;   
+}
+
+.seconddiv{
+    width: 150px;
+    height: 100px;
+    margin:10px;
+    padding: 10px 50px;
+    background-color: blueviolet;
+    float: left;
+    /*
+border-color: black;
+border-style: double;
+border-width:2px;*/
+border-left: dotted;
+
+border : 2px solid black;
+border-radius: 50px;
+/*border-bottom-left-radius: 50px
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px
+border-top-right-radius: 50px;*/
+cursor:pointer;/* change the shape of cursor*/
+}
+
+
+.third{
+    width: 100px;
+    height: 80px;
+background-color: black;
+float: left;
+
+}
